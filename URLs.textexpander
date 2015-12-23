@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>groupInfo</key>
+	<dict>
+		<key>expandAfterMode</key>
+		<integer>2</integer>
+		<key>groupName</key>
+		<string>URLs</string>
+	</dict>
+	<key>snippetsTE2</key>
+	<array>
+		<dict>
+			<key>abbreviation</key>
+			<string>jjip</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-09-03T02:45:57Z</date>
+			<key>label</key>
+			<string>Current external IP number</string>
+			<key>modificationDate</key>
+			<date>2011-09-03T02:54:12Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+echo -n `curl -s http://checkip.dyndns.org/ | grep -Eo '[0-9.]+'`</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>uuidString</key>
+			<string>F66A82A7-9470-4856-BF78-A304EA429B6A</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>jj1url</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2009-07-29T13:05:19Z</date>
+			<key>label</key>
+			<string>Tab 1 URL</string>
+			<key>modificationDate</key>
+			<date>2015-07-10T15:38:57Z</date>
+			<key>plainText</key>
+			<string>set tabNum to 1
+tell application "Safari" to get URL of tab tabNum of front window
+</string>
+			<key>snippetType</key>
+			<integer>2</integer>
+			<key>uuidString</key>
+			<string>55690A85-5FA2-4285-B41A-9710899139D7</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>jj2url</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2009-07-29T13:06:16Z</date>
+			<key>label</key>
+			<string>Tab 2 URL</string>
+			<key>modificationDate</key>
+			<date>2015-07-10T15:39:19Z</date>
+			<key>plainText</key>
+			<string>set tabNum to 2
+tell application "Safari" to get URL of tab tabNum of front window
+</string>
+			<key>snippetType</key>
+			<integer>2</integer>
+			<key>uuidString</key>
+			<string>764672EC-8CDC-4C5B-BEAA-3ABA83AF135F</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>jj3url</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2009-07-29T13:06:34Z</date>
+			<key>label</key>
+			<string>Tab 3 URL</string>
+			<key>modificationDate</key>
+			<date>2015-07-10T15:39:26Z</date>
+			<key>plainText</key>
+			<string>set tabNum to 3
+tell application "Safari" to get URL of tab tabNum of front window
+</string>
+			<key>snippetType</key>
+			<integer>2</integer>
+			<key>uuidString</key>
+			<string>EF1A73F8-E1A7-4A04-B759-06DCA1B7440A</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>jj4url</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2009-07-29T13:07:17Z</date>
+			<key>label</key>
+			<string>Tab 4 URL</string>
+			<key>modificationDate</key>
+			<date>2015-07-10T15:39:33Z</date>
+			<key>plainText</key>
+			<string>set tabNum to 4
+tell application "Safari" to get URL of tab tabNum of front window
+</string>
+			<key>snippetType</key>
+			<integer>2</integer>
+			<key>uuidString</key>
+			<string>BC519629-5A5D-4CD0-8AED-E7621FF2C68F</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>jj5url</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2009-07-29T13:07:42Z</date>
+			<key>label</key>
+			<string>Tab 5 URL</string>
+			<key>modificationDate</key>
+			<date>2015-07-10T15:39:41Z</date>
+			<key>plainText</key>
+			<string>set tabNum to 5
+tell application "Safari" to get URL of tab tabNum of front window
+</string>
+			<key>snippetType</key>
+			<integer>2</integer>
+			<key>uuidString</key>
+			<string>8E48C7A8-CC81-44CC-A2C3-E9FE624B7BDD</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>jj6url</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2009-07-29T13:08:01Z</date>
+			<key>label</key>
+			<string>Tab 6 URL</string>
+			<key>modificationDate</key>
+			<date>2015-07-10T15:39:49Z</date>
+			<key>plainText</key>
+			<string>set tabNum to 6
+tell application "Safari" to get URL of tab tabNum of front window
+</string>
+			<key>snippetType</key>
+			<integer>2</integer>
+			<key>uuidString</key>
+			<string>DFA22F26-82CA-4BD9-AA51-2ED7C7085105</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>jjfurl</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2010-01-18T16:58:59Z</date>
+			<key>label</key>
+			<string>Front URL</string>
+			<key>modificationDate</key>
+			<date>2015-07-10T15:42:07Z</date>
+			<key>plainText</key>
+			<string>tell application "Safari" to get URL of front document
+</string>
+			<key>snippetType</key>
+			<integer>2</integer>
+			<key>uuidString</key>
+			<string>A6FDF5EF-A293-410E-A847-08B778E2900D</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>jjturl</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2015-09-07T15:30:03Z</date>
+			<key>label</key>
+			<string>Transmit URL</string>
+			<key>modificationDate</key>
+			<date>2015-09-08T21:26:03Z</date>
+			<key>plainText</key>
+			<string>transmit = Application('Transmit').documents[0].currentTab.remoteBrowser
+imgPath = transmit.rootPath().slice(25)
+fileName = transmit.selectedBrowserItems[0].name()
+'http://leancrew.com' + imgPath + '/' + encodeURI(fileName)
+</string>
+			<key>snippetType</key>
+			<integer>4</integer>
+			<key>uuidString</key>
+			<string>EC4D37B1-3214-4544-967F-47F9418C25FA</string>
+		</dict>
+	</array>
+</dict>
+</plist>
